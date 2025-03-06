@@ -45,8 +45,8 @@ var handler = async (m, { conn }) => {
 ❍  *Rᥱgіs𝗍rᥲძ᥆:* ${registered ? '✅': '❌'}
 
 「 ✦ *Recursos - User* 」
-⛁ *Coins Cartera* » ${coins.toLocaleString()} ${moneda}
-⛃ *Coins Banco* » ${bankCoins.toLocaleString()} ${moneda}
+✩ *Es𝗍rᥱᥣᥣᥲs:* ${estrellas || 0}
+≛ *Nivel:* ${level || 0}
 ◭ *E᥊⍴ᥱrіᥱᥒᥴіᥲ:* ${exp || 0}
 ⚡︎ *Rᥲᥒg᥆:* ${role}
 
@@ -64,7 +64,7 @@ var handler = async (m, { conn }) => {
 ╰─────────────────⪨
 
 ╭────⪩ 𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 ⪨
-│⧼💴⧽⛁ *Coins Cartera* » ${coins.toLocaleString()} ${moneda}
+│⧼💴⧽ *estrellas:* ${estrellas || 0}
 │⧼🌟⧽ *ɴɪᴠᴇʟ:* ${level || 0}
 │⧼✨⧽ *ᴇxᴘᴇʀɪᴇɴᴄɪᴀ:* ${exp || 0}
 │⧼⚜️⧽ *ʀᴀɴɢᴏ:* ${role}
