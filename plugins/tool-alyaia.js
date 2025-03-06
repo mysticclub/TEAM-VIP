@@ -72,4 +72,4 @@ handler.help = ['ip <chat gpt>']
 handler.tags = ['owner']
 handler.command = ['ai', 'alyaia', 'iaalya', 'ia']
 
-export default handler
+export default handler 
