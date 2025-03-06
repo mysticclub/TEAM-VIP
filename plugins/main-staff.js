@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let img = 'https://qu.ax/KUbmM.jpg'
+let img = 'https://qu.ax/OnJyl.jpg'
 let staff = `ᥫ᭡ *EQUIPO DE AYUDANTES* ❀
 ✰ *Dueño* ${creador}
 ✦ *Bot:* ${botname}
