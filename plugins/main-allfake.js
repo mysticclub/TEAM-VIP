@@ -36,7 +36,7 @@ global.namechannel2 = 'ALYA OFICIAL CHANNEL'
 global.namegrupo = 'ALYA GRUPO OFICIAL'
 global.namecomu = '❖ƬʜᴇᬁAlya Oficial Comunity𒈞꧂♰'
 global.listo = '❮✦❯ *Aquí tienes ฅ^•ﻌ•^ฅ*'
-global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg')
+global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/OnJyl.jpg')
 
 //Ids channel
 global.canalIdM = ["120363407799526075@newsletter", "120363374826926142@newsletter"]
@@ -111,7 +111,7 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [
-'https://qu.ax/KUbmM.jpg',
+'https://qu.ax/OnJyl.jpg',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
