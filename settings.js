@@ -43,20 +43,20 @@ global.baileys = 'V 6.7.13'
 global.languaje = 'Español'
 global.vs = '2.2.0'
 global.vsJB = '5.0'
-global.nameqr = 'YukiBot-MD'
-global.namebot = '✿◟Yυƙι-Sυσυ-Bσƚ◞✿'
+global.nameqr = '♰⚔ÄĻŸÄ Ö₣ÏĊÏÄĻ 乂❤ᬁੌ'
+global.namebot = '♰⚔ÄĻŸÄ Ö₣ÏĊÏÄĻ 乂❤ᬁੌ'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ 𝐘𝐮𝐤𝐢-𝐒𝐮𝐨𝐮-𝐁𝐨𝐭 ✰⪜'
-global.botname = 'ᥡᥙkі-sᥙ᥆ᥙ-ᑲ᥆𝗍'
-global.wm = 'ৎ୭࠭͢𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭ⷭ𓆪͟͞ '
+global.packname = '♰⚔ÄĻŸÄ Ö₣ÏĊÏÄĻ 乂❤ᬁੌ'
+global.botname = '♰⚔ÄĻŸÄ Ö₣ÏĊÏÄĻ 乂❤ᬁੌ'
+global.wm = 'ৎ୭࠭͢ÄĻŸÄ Ö₣ÏĊÏÄĻ 乂❤ᬁੌ𓆪͟͞ '
 global.author = '⍴᥆ᥕᥱrᥱძ ᑲᥡ ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻ᴳᵒᵈ★'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻ᴳᵒᵈ★'
-global.textbot = 'Yυƙι-Sυσυ-Bσƚ • Powered By ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻ᴳᵒᵈ★'
+global.textbot = '♰⚔ÄĻŸÄ Ö₣ÏĊÏÄĻ 乂❤ᬁੌ• Powered By ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻ᴳᵒᵈ★'
 global.etiqueta = '⍴᥆ᥕᥱrᥱძ ᑲᥡ ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻ᴳᵒᵈ★'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -64,12 +64,12 @@ global.etiqueta = '⍴᥆ᥕᥱrᥱძ ᑲᥡ ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻�
 global.moneda = '¥enes'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://tinyurl.com/27d7rnhu'
-global.avatar = 'https://tinyurl.com/25ru293g'
+global.banner = 'https://qu.ax/OnJyl.jpg'
+global.avatar = 'https://qu.ax/OnJyl.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.catalogo = fs.readFileSync('./src/catalogo.jpg');
+global.catalogo = fs.readFileSync('https://qu.ax/OnJyl.jpg');
 global.photoSity = [catalogo]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
