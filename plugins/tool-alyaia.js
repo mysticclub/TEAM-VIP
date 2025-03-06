@@ -68,7 +68,8 @@ async function luminsesi(q, username, logic) {
     throw error;
   }
 }
-handler.customPrefix = /^(aialya|alyaai)$/i
-handler.command = new RegExp
+handler.help = ['ip <chat gpt>']
+handler.tags = ['owner']
+handler.command = ['ai', 'alyaia', 'iaalya', 'ia']
 
-export default handler;
+export default handler
