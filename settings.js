@@ -64,15 +64,16 @@ global.etiqueta = '⍴᥆ᥕᥱrᥱძ ᑲᥡ ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻�
 global.moneda = '¥enes'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://qu.ax/Uijql.jpg'
-global.avatar = 'https://qu.ax/OnJyl.jpg'
+global.banner = 'https://tinyurl.com/27d7rnhu'
+global.avatar = 'https://tinyurl.com/25ru293g'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.catalogo = fs.readFileSync('https://qu.ax/OnJyl.jpg');
+global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.photoSity = [catalogo]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+
 
 global.gp1 = 'https://chat.whatsapp.com/DBkDuboKpLT5ffA7kRZckY'
 global.comunidad1 = 'https://chat.whatsapp.com/E306o0iqonT4B2GMgoP2vr'
