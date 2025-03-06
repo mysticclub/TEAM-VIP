@@ -1,30 +1,33 @@
-// Tagall Mejorado por willzek
-import fetch from 'node-fetch';
-import PhoneNumber from 'awesome-phonenumber';
+/* 
+- tagall By Angel-OFC  
+- etiqueta en un grupo a todos
+- https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y
+*/
+const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, command, usedPrefix }) => {
+  if (usedPrefix == 'a' || usedPrefix == 'A') return;
 
-const handler = async (m, { participants, args }) => {
-  const pesan = args.join` `;
-  const oi = `*» INFO :* ${pesan}`;
-  let mensajes = `*!  MENCION GENERAL  !*\n  *PARA ${participants.length} MIEMBROS* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄 ۪꒰ \`⡞᪲=͟͟͞${botname} ≼᳞ׄ\` ꒱ ۟ 𝅄 ┄\` ꒱  ۟  𝅄 ┄\n`;
+  const customEmoji = global.db.data.chats[m.chat]?.customEmoji || '🍫';
+  m.react(customEmoji);
 
-  for (const mem of participants) {
-    let numero = PhoneNumber('+' + mem.id.replace('@s.whatsapp.net', '')).getNumber('international');
-    let api = `https://delirius-apiofc.vercel.app/tools/country?text=${numero}`;
-    let response = await fetch(api);
-    let json = await response.json();
-
-    let paisdata = json.result ? json.result.emoji : '🍫';
-    mensajes += `${paisdata} @${mem.id.split('@')[0]}\n`;
+  if (!(isAdmin || isOwner)) {
+    global.dfail('admin', m, conn);
+    throw false;
   }
 
-    mensajes += `╰⸼ ┄ ┄ ┄ ─  ꒰  ׅ୭ *${vs}* ୧ ׅ ꒱  ┄  ─ ┄ ⸼`;
+  const pesan = args.join` `;
+  const oi = `*» INFO :* ${pesan}`;
+  let teks = `*!  MENCION GENERAL  !*\n  *PARA ${participants.length} MIEMBROS* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄 ۪꒰ \`⡞᪲=͟͟͞${botname} ≼᳞ׄ\` ꒱ ۟ 𝅄 ┄\n`;
+  for (const mem of participants) {
+    teks += `┊${customEmoji} @${mem.id.split('@')[0]}\n`;
+  }
+  teks += `╰⸼ ┄ ┄ ┄ ─  ꒰  ׅ୭ *${vs}* ୧ ׅ ꒱  ┄  ─ ┄ ⸼`;
 
-  conn.sendMessage(m.chat, { text: mensajes, mentions: participants.map((a) => a.id) });
+  conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
 };
 
 handler.help = ['todos *<mensaje opcional>*'];
-handler.tags = ['grupo'];
-handler.command = /^(tagall|invocar|marcar|todos|invocación)$/i;
+handler.tags = ['group'];
+handler.command = ['todos', 'invocar', 'tagall']
 handler.admin = true;
 handler.group = true;
 
