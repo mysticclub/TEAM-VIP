@@ -48,8 +48,10 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Ver los enlaces oficiales de la Bot.
 ᰔᩚ *#infobot • #infobot*
 > ✦ Ver la información completa de la Bot.
-ᰔᩚ *#sug • #newcommand*
+ᰔᩚ *#sug • #newcommand ° #suggest*
 > ✦ Sugiere un nuevo comando.
+ᰔᩚ *#report ° #reporte*
+> manda un reporte al grupo de staff 
 ᰔᩚ *#p • #ping*
 > ✦ Ver la velocidad de respuesta del Bot.
 ᰔᩚ *#reporte • #reportar*
@@ -458,6 +460,12 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 • :･ﾟ⊹˚• \`『 NSFW 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos NSFW (Contenido para adultos)
+ᰔᩚ *#pack*
+> el bot muestra un pack
+ᰔᩚ *#vxxx*
+> el bot muestra un vídeo xxx random 
+ᰔᩚ *#tetas*
+> el bot te envía foto teta
 ᰔᩚ *#anal* + <mencion>
 > ✦ Hacer un anal
 ᰔᩚ *#waifu*
