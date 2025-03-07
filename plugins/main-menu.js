@@ -15,7 +15,7 @@ H-Hola... Soy *${botname}*
 Espero que te ayude... Si necesitas algo, solo dime, 
 ¿sí? 💕
 
-乂❤° ๛🎢💞Canal Oficial💞⚔乂❤
+💞Canal Oficial💞
 https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x
 ╭┈ ↷
 │ᰔᩚ Cliente » @${userId.split('@')[0]}
