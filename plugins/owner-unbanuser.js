@@ -21,7 +21,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
     }
 };
 handler.help = ['unbanuser <@tag>'];
-handler.command = ['unbanuser', 'pardon'];
+handler.command = ['unbanuser', 'pardon', 'unban'];
 handler.tags = ['owner'];
 handler.mods = true;
 handler.group = true;
