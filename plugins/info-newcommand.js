@@ -1,21 +1,17 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return conn.reply(m.chat, '《✧》Por favor, escribe la sugerencia que deseas solicitar.', m)
-    if (text.length < 5) return conn.reply(m.chat, 'La sugerencia debe ser más de 5 caracteres.', m)
-    if (text.length > 1000) return conn.reply(m.chat, 'Máximo de la sugerencia es de 1000 caracteres.', m)
+    if (!text) return conn.reply(m.chat, `√${emoji} Que comando quieres sugerir?`, m)
+    if (text.length < 10) return conn.reply(m.chat, `${emoji2} La sugerencia debe ser mas de 10 character.`, m)
+    if (text.length > 1000) return conn.reply(m.chat, `${emoji2} Maximo de la sugerencia es de 1000 character.`, m)
+    const teks = `${emoji} Sugerencia de un nuevo comando del usuario *${nombre}*
 
-    const teks = `Sugerencia de nuevo comando del usuario *${m.sender}*
-
-🛡️ Han sugerido un comando:
+☁️ Comando Sugerido:
 > ${text}`
+    await conn.reply(`${suittag}@s.whatsapp.net`, m.quoted ? teks + m.quoted.text : teks, m, { mentions: conn.parseMention(teks) })
 
-    const groupChatId = '120363409334575837@g.us';
-    await conn.reply(groupChatId, m.quoted ? teks + m.quoted.text : teks, m, { mentions: conn.parseMention(teks) })
-
-    m.reply('🌠 La sugerencia se envió al Staff.')
+    m.reply('🍬 La sugerencia se envió a mi propietario.')
 }
-handler.help = ['sugerencia']
-handler.tags = ['owner']
-handler.command = ['sug', 'newcomand', 'report', 'suggest', 'reporte']
-handler.group = true;
+handler.help = ['newcommand']
+handler.tags = ['info']
+handler.command = ['newcommand', 'sug', 'suggest', 'report']
 
 export default handler
