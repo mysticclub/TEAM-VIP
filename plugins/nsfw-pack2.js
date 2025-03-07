@@ -36,7 +36,7 @@ sourceUrl: enlace }}})
       break;
   }
 };
-handler.command = ['','pack2','pack3','videoxxx','vídeoxxx','videoxxxlesbi','videolesbixxx','pornolesbivid','pornolesbianavid','pornolesbiv','pornolesbianav','pornolesv'];
+handler.command = ['pack2','pack3','videoxxx','vídeoxxx','videoxxxlesbi','videolesbixxx','pornolesbivid','pornolesbianavid','pornolesbiv','pornolesbianav','pornolesv'];
 handler.premium = true;
 handler.register = true
 export default handler;
