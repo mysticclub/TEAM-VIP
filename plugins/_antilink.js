@@ -14,7 +14,9 @@ const listAdmin = groupAdmins.map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]
 let bot = global.db.data.settings[this.user.jid] || {};
 const isGroupLink = linkRegex.exec(m.text) || linkRegex1.exec(m.text);
 const grupo = `https://chat.whatsapp.com`;
-if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply(`✦ El antilink está activo pero te salvaste por ser admin.`);
+if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply(`✦ ～～～  *Ohayō...* ～～～
+  *El anti link está activo, pero como eres admin, te has salvado...* 
+  〜 ありがとう 〜`);
 if (chat.antiLink && isGroupLink && !isAdmin) {
 if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
