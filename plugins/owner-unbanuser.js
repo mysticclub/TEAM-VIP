@@ -6,7 +6,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
     } else if (args.length >= 1) {
         user = args[0].replace('@', '') + '@s.whatsapp.net';
     } else {
-        await conn.reply(m.chat, `${emoji} Por favor, etiqueta o coloca el número del usuario que quieres desbanear del Bot.`, m);
+        await conn.reply(m.chat, `🚩 Etiqueta o responde al mensaje del usuario que quieras Desbanear, Ejemplo:\n> → *${usedPrefix}unbanuser <@tag>*`, m);
         return;
     }
     if (db[user]) {
@@ -14,15 +14,15 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
         db[user].banRazon = '';
         const nametag = await conn.getName(user);
         const nn = conn.getName(m.sender);
-        await conn.reply(m.chat, `${done} El usuario *${nametag}* ha sido desbaneado.`, m, { mentionedJid: [user] });
-        conn.reply(`${suittag}@s.whatsapp.net`, `${emoji} El usuario *${nametag}* ha sido desbaneado por *${nn}*.`, m);
+        await conn.reply(m.chat, `✅️ El usuario *${nametag}* ha sido desbaneado.`, m, { mentionedJid: [user] });
+        conn.reply('5493876432076@s.whatsapp.net', `🚩 El usuario *${nametag}* ha sido desbaneado por *${nn}*`, m, rcanal, );
     } else {
-        await conn.reply(m.chat, `${emoji4} El usuario no está registrado.`, m);
+        await conn.reply(m.chat, `🚩 El usuario no está registrado.`, m);
     }
 };
 handler.help = ['unbanuser <@tag>'];
 handler.command = ['unbanuser'];
-handler.tags = ['mods'];
-handler.rowner = true;
-
+handler.tags = ['owner'];
+handler.mods = true;
+handler.group = true;
 export default handler;
