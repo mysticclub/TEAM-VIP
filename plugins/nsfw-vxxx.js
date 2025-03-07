@@ -30,6 +30,24 @@ handler.command = ['videoxxx', 'vxxx'];
 export default handler;
 
 /* global.vidxxx = [
+
+https://telegra.ph/file/2dfb1ad0cab22951e30d1.mp4
+
+"https://telegra.ph/file/2dfb1ad0cab22951e30d1.mp4",
+
+"https://telegra.ph/file/c430651857023968d3a76.mp4",
+
+"https://telegra.ph/file/1ba17f6230dd1ea2de48c.mp4",
+
+"https://telegra.ph/file/e04b802f12aafee3d314e.mp4",
+
+"https://telegra.ph/file/a58661697d519d3d0acbd.mp4",
+
+"https://telegra.ph/file/9ed60b18e79fcfebcd76c.mp4",
+
+"https://telegra.ph/file/d58096000ad5eaef0b05e.mp4",
+
+"https://telegra.ph/file/60b4c8ebeadebb7e0da06.mp4"
     'https://telegra.ph/file/4a270d9945ac46f42d95c.mp4',
     'https://telegra.ph/file/958c11e84d271e783ea3f.mp4',
     'https://telegra.ph/file/f753759342337c4012b3f.mp4',
