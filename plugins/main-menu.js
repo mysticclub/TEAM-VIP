@@ -50,8 +50,6 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Ver la información completa de la Bot.
 ᰔᩚ *#sug • #newcommand ° #suggest*
 > ✦ Sugiere un nuevo comando.
-ᰔᩚ *#report ° #reporte*
-> manda un reporte al grupo de staff 
 ᰔᩚ *#p • #ping*
 > ✦ Ver la velocidad de respuesta del Bot.
 ᰔᩚ *#reporte • #reportar*
