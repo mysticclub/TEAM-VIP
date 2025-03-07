@@ -14,6 +14,9 @@ H-Hola... Soy *${botname}*
 😊 Um... traje esta lista de comandos para ti ✨ 
 Espero que te ayude... Si necesitas algo, solo dime, 
 ¿sí? 💕
+
+乂❤° ๛🎢💞Canal Oficial💞⚔乂❤
+https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x
 ╭┈ ↷
 │ᰔᩚ Cliente » @${userId.split('@')[0]}
 │❀ Modo » Publico
