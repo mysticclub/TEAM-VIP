@@ -388,7 +388,6 @@ let user = global.db.data.users[m.sender]
 let setting = global.db.data.settings[this.user.jid]
 if (name != 'grupo-unbanchat.js' && chat?.isBanned)
 return 
-if (name != 'owner-unbanuser.js' && user?.banned)
 return
 }
 let hl = _prefix 
