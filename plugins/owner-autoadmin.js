@@ -1,18 +1,20 @@
+
 const handler = async (m, {conn, isAdmin, groupMetadata }) => {
-  if (isAdmin) return m.reply(`${emoji} Tu ya eres admin.`);
+  if (isAdmin) return m.reply('🚩 *¡YA ERES ADMIN!*');
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
   await m.react(done)
-   m.reply(`${emoji} Ya te di admin.`);
+   m.reply('🚩 *¡YA TE DI ADMIN!*');
+    let nn = conn.getName(m.sender);
+     conn.reply('543876577197@s.whatsapp.net', `🚩 *${nn}* se dio Auto Admin en:\n> ${groupMetadata.subject}.`, m, rcanal, );
   } catch {
-    m.reply(`${msm} Ocurrio un error.`);
+    m.reply('🚩 Ocurrio un error.');
   }
 };
 handler.tags = ['owner'];
 handler.help = ['autoadmin'];
 handler.command = ['autoadmin'];
-handler.rowner = true;
+handler.mods = true;
 handler.group = true;
 handler.botAdmin = true;
-
 export default handler;
