@@ -79,8 +79,8 @@ global.gp1 = 'https://chat.whatsapp.com/DBkDuboKpLT5ffA7kRZckY'
 global.comunidad1 = 'https://chat.whatsapp.com/E306o0iqonT4B2GMgoP2vr'
 global.channel = 'https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x'
 global.channel2 = 'https://whatsapp.com/channel/0029Vb8LAWuAYlUTheJN5J0R'
-global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'thekingdestroy507@gmail.com'
+global.md = ''
+global.correo = 'seishironagi.rukasproyect@gmail.com'
 global.cn ='https://chat.whatsapp.com/DBkDuboKpLT5ffA7kRZckY';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
