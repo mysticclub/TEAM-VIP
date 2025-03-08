@@ -24,7 +24,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 showAdAttribution: true,
                 title: 'ᵀᵉᵃᵐ★༺Leͥgeͣnͫd༻ᴳᵒᵈ★',
                 body: dev,
-                thumbnailUrl: 'https://i.ibb.co/4Zg31Wsc/file.jpg',
+                thumbnailUrl: 'https://qu.ax/ggvlU.jpg',
                 sourceUrl: 'https://github.com/WillZek',
                 mediaType: 1,
                 renderLargerThumbnail: true
