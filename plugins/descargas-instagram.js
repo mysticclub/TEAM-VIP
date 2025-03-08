@@ -1,4 +1,4 @@
-import { igdl } from 'ruhend-scraper';
+    import { igdl } from 'ruhend-scraper';
 
 const handler = async (m, { args, conn }) => {
   if (!args[0]) {
