@@ -39,8 +39,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     await conn.sendMessage(m.chat, { text: txt });
 };
 
-handler.help = ['owner', 'creator'];
-handler.tags = ['main'];
-handler.command = /^(owner|creator|creador|dueño)$/i;
+handler.help = ["creador", "owner"];
+handler.tags = ["info"];
+handler.command = ['owner', 'creator', 'creador', 'dueño'];
 
 export default handler;
