@@ -19,8 +19,8 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
  *乂  ＢＵＹ  -  ＰＲＥＭＩＵＭ*
   ${xxx}-----------------------------
   • ${usedPrefix + command} 1 1h = 1 hora premium 🎁
-  • 1 hora premium = 20 + 1 Diamantes 💎
-   • El +1 es por la comisión. Por cada hora más de premium comprada, se aumentará, es decir, si compras 2 horas premium se te cobrarán 2 estrellas como comisión 💎
+  • 1 hora premium = 20 + 1 ${moneda}
+   • El +1 es por la comisión. Por cada hora más de premium comprada, se aumentará, es decir, si compras 2 horas premium se te cobrarán 2 ${moneda} como comisión 
 ${xxx}
  *乂  ＩＮＦＯ  -  ＥＸＴＲＡ*
   ${xxx}-----------------------------
@@ -43,10 +43,10 @@ ${xxx}
   if (!user.premiumTime) user.premiumTime = 0;
 
   if (isNaN(args[0])) return conn.reply(m.chat, `*❌ Solo se aceptan números. Ejemplo: ${usedPrefix + command} 1 1h*`, fkt2)
-  if (user.estrellas < precio) throw `*🏦 No tienes suficientes estrellas para comprar premium!*`
+  if (user.coin < precio) throw `*🏦 No tienes suficientes estrellas para comprar premium!*`
 
-  user.estrellas -= precio * args[0]
-  user.estrellas -= com * args[0]
+  user.coin -= precio * args[0]
+  user.coin -= com * args[0]
 
   var tiempo = 3600000 * args[0] //180000 3min | 300000 5 min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
   var now = Date.now() // Cambiado a Date.now()
@@ -60,8 +60,8 @@ ${xxx}
   • Usuario : @${m.sender.split`@`[0]} 🧝‍♂️
   • Tiempo Premium : ${tiempoTl} hora(s) 🕑
   • Total a pagar : ${precio + com} 🏦
-  • Estrellas restantes : ${user.estrellas} 
-  • Tenía : ${user.estrellas + precio + com} ⛅
+  • ${moneda} restantes : ${user.coin} 
+  • Tenía : ${user.coin + precio + com} ⛅
   • Comisión : -${com} 💎
  ${xx}
 `
