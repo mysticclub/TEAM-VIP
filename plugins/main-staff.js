@@ -31,8 +31,8 @@ let staff = `ᥫ᭡ *EQUIPO DE AYUDANTES* ❀
 > ✧ Wa.me/50765554540
 
 ᰔᩚ Martin 
-> 🜸 Rol » *Mod*
-> ✧ (número privado)
+> 🜸 Rol » 
+> ✧ si quieres formar parte del staff comunícate con algún Mod 
 `
 await conn.sendFile(m.chat, img, 'yuki.jpg', staff.trim(), fkontak)
 }
