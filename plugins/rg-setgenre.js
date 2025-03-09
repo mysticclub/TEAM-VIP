@@ -17,9 +17,6 @@ switch (text.toLowerCase()) {
 case "hombre":
 genre = "Hombre";
 break;
-case "transformer":
-genre = "transformer";
-break;
 case "mujer":
 genre = "Mujer";
 break;
