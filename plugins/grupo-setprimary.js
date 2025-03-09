@@ -1,7 +1,7 @@
 import ws from 'ws';
 
 let handler = async (m, { conn, usedPrefix, args }) => {
-if (!args[0]) return m.reply(`⚠️ Etiquetas en numero de algun bot\nEjemplo: ${usedPrefix}setprimary @tag`);
+if (!args[0]) return m.reply(`debes mencionar a un bot del grupo para establecerlo como primario de este grupo \nEjemplo: ${usedPrefix}setprimary + mención`);
 
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 let botJid;
