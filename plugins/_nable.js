@@ -137,6 +137,7 @@ const handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, i
       break;
 
     case 'modoadmin':
+    case 'onlyadmin':
     case 'soloadmin':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
