@@ -30,7 +30,7 @@ let staff = `ᥫ᭡ *EQUIPO DE AYUDANTES* ❀
 > 🜸 Rol » *Mod*
 > ✧ Wa.me/50765554540
 
-ᰔᩚ Martin 
+ᰔᩚ 
 > 🜸 Rol » 
 > ✧ si quieres formar parte del staff comunícate con algún Mod 
 `
