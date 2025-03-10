@@ -16,7 +16,7 @@ Espero que te ayude... Si necesitas algo, solo dime,
 ¿sí? 💕
 
 💞Canal Oficial💞
-https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x
+https://sites.google.com/view/teamlegendgood/inicio
 ╭┈ ↷
 │ᰔᩚ Cliente » @${userId.split('@')[0]}
 │❀ Modo » Publico
