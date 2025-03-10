@@ -103,7 +103,7 @@ text: owner,
 contextInfo: {
 externalAdReply: {
 title: packname,
-body: dev,
+body: dev,mods
 thumbnailUrl: icono,
 mediaType: 1,
 showAdAttribution: true,
